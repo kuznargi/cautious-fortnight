@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import drop01 from '../../../assets/images/drop.mp4';
+import drop01 from '../../../assets/videos/higgsfield.mp4';
 import "./video.css"; 
 const SectionWrapper = styled.section`
   min-height: 100vh;
@@ -15,16 +15,16 @@ const LeftContainer = styled.div`
 `;
 
 const Second = () => {
-  return (
-    <SectionWrapper id="second" className="about">
-      <LeftContainer
-        data-scroll
-      >
-      <video className="drop-ply" src={drop01}
-      autoPlay muted loop></video>
-      </LeftContainer> 
-    </SectionWrapper> 
-  );
+  // return (
+  //   // <SectionWrapper id="second" className="about">
+  //   //   {/* <LeftContainer
+  //   //     data-scroll
+  //   //   >
+  //   //   <video className="drop-ply" src={drop01}
+  //   //   autoPlay muted loop></video>
+  //   //   </LeftContainer>  */}
+  //   // </SectionWrapper> 
+  // );
 };
 
 export default Second;
